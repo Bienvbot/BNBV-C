@@ -37,15 +37,6 @@ client.on('ready', () => {
     });
 
 
-const Discord = require('discord.js');
-const fs = require('fs');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log(`Welcome Bro ${client.user.tag}!`);
-});
-const prefix = '_'
-
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
