@@ -537,7 +537,7 @@ client.on("guildCreate", guild => {
   client.channels.get("476342429575020544").send(embed)
 });
 
-client.login('NTEzMDE5NTAxOTAyNTYxMjkw.DtG1eA.M2d1Eam2kT_ClAP5XyI8xxHTens');
+
 
 
 client.login(process.env.BOT_TOKEN);
