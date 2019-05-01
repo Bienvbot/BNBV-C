@@ -46,7 +46,7 @@ client.on('message', msg => {
 
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`help`,"http://twitch.tv/xkilleryt")
+    client.user.setGame(`#RiyderzBot`,"http://twitch.tv/xkilleryt")
     });
 
 
@@ -67,7 +67,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.s
 
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
 
-let copy = "SkyBot.";
+let copy = "#Riyderz.";
 
 let request = `Requested By ${message.author.username}`;
 
